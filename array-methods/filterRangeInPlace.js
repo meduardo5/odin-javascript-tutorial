@@ -6,7 +6,7 @@ function filterRangeInPlace(arr, num1, num2){
         
         if(arr[i] < num1 || arr[i] > num2){
             arr.splice(i, 1);
-            i--;
+            //i--;
             console.log(i);
         }
     }
