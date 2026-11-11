@@ -29,3 +29,9 @@ paragraph2.textContent = "ME TOO!";
 newDiv.appendChild(paragraph2);
 
 container.appendChild(newDiv);
+
+const btn1 = document.querySelector("#btn1"); // reference button
+btn1.onclick = () => alert("Hello World"); // using arrow function
+
+const btn2 = document.querySelector("#btn2");
+btn2.addEventListener("click", () => {alert("Hello World");}); // using event listeners
